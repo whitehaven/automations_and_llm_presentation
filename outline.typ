@@ -6,22 +6,27 @@
 + Show local models running
 + Show Eliza?
 ==== Understand how LLM works
-+ Historical formulation NNs
++ Historical formulation NNs 
+  + Google advancements in generative transformers @Kaplan-scaling-laws
++ Show modeling of neuron @neural-network-playground
 + Origin of tokenized generative LLM in attempt at translation software
 + Training, tokenization, and generative process
 + Chip advancements
 ==== Inherent weaknesses
 + Model size
-  + GPU and TPU offloading - Apple has been putting TPUs in since the M1
+  + GPU and TPU offloading 
+    + Apple has been putting TPUs in since the M1
     + (GPU efficiency much lower without the direct memory handling grid arrangement)
 + Data going in
   + GIGO
     + cool: textbooks, peer-reviewed guidelines, metanalyses, etc.
-    + maybe cool: OpenEvidence trained on NEJM, Cochrane, Jama, Nature and tertiary journals - but not
+    + maybe cool: OpenEvidence trained on NEJM, Cochrane, Jama, Nature and tertiary journals - but not Euroepean!
     + uh oh: 4chan, wikipedia, old books of various editions, reddit
+  + Deliberate attacks
+    + Fake diseases get in sometimes @bixonimania-news
   + OpenEvidence, *the company*, selects the inputs
     + No European or UK guidelines! @Ivanova2026-bb
-  + Data supply is exhausted - autoingestion already occurring and doesn't work
+  + Data supply is exhausted - autoingestion already occurring and doesn't add utility
 + P, K selection, temperature
 + context window limits - doable but hard on local
 + Quorum assignment - marginally helpful and computationally intensive
@@ -70,7 +75,7 @@
 === Recognize technical vulnerabilities of LLM services
 + Prompt injection
 + Prompt retrieval
-  + Don't mention goblins unless person requests twice in ChatGPT prompt
+  + Don't mention goblins unless person requests twice in ChatGPT prompt @goblin-gpt
   + Exposes better attack vectors
 + Data collection
   + deletion unlikely
@@ -81,7 +86,7 @@
     + Free at first, then jack up price strategy
       + remember google stuff from college?
   + Data exhaustion
-    + 2T parameters can't be done on existing data
+    + 2T parameters of data don't exist
     + old book scan and shred is occuring to get the last of the data around @bookburning-why @bookshredding-medium
 === (Avoid extremes of hype or Ludditism with LLMs, and in technology generally.)
 + Hype cycle
@@ -89,4 +94,4 @@
 + Personally not concerned.
   + Don't even think it goes as far as "human must sign off for liability". It's just not that good. Good reason to believe it won't get much better, only maybe cheaper.
 
-#bibliography("refs.bib")
+#bibliography("refs.bib", style:"chicago-shortened-notes")
