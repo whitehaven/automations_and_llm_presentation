@@ -15,9 +15,13 @@
     + GPU and TPU offloading - Apple has been putting TPUs in since the M1
       + (GPU efficiency much lower without the direct memory handling grid arrangement)
   + Data going in
-    + cool: textbooks, peer-reviewed study
-    + uh oh: 4chan, wikipedia, old books of various editions, reddit
-    + *open evidence selects the inputs*
+    + GIGO
+      + cool: textbooks, peer-reviewed guidelines, metanalyses, etc.
+      + maybe cool: OpenEvidence trained on NEJM, Cochrane, Jama, Nature and tertiary journals - but not 
+      + uh oh: 4chan, wikipedia, old books of various editions, reddit
+    + OpenEvidence, *the company*, selects the inputs
+      + No European or UK guidelines! @Ivanova2026-bb
+    + Data supply is exhausted - autoingestion already occurring and doesn't work
   + P, K selection, temperature
   + context window
 + Radiology
@@ -38,6 +42,9 @@
   + Good
     + Differential building
     + Writing generic form letter to insurance
+  + Good going bad
+    + Context rot
+      + Trimming
 === Recognize technical vulnerabilities of LLM services
 + Prompt injection
 + Data collection
@@ -56,3 +63,5 @@
 + Show actually good uses
 + Personally not concerned.
   + Don't even think it goes as far as "human must sign off for liability". It's just not that good. Good reason to believe it won't get much better, only maybe cheaper.
+
+#bibliography("refs.bib")
